@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alerta Rápido: Enchentes</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/script.js" defer></script>
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- Header -->
+ <header class=" bg-white p-4 flex justify-between items-center sticky top-0 z-50 relative">
+  <!-- Logo centralizada -->
+  <div class="absolute left-1/2 transform -translate-x-1/2">
+    <img src="assets/img/logoench.png" alt="Logo Alerta Rápido"  />
+  </div>
+
+  <!-- Botão de menu mobile (esquerda) -->
+  <button id="menu-btn" class="block md:hidden text-2xl z-10">&#9776;</button>
+
+  <!-- Navegação (direita) -->
+  <nav id="menu" class="hidden md:flex space-x-4 ml-auto z-10">
+    <a href="#intro" class="hover:underline">Início</a>
+    <a href="#solucao" class="hover:underline">Solução</a>
+    <a href="#video" class="hover:underline">Pitch</a>
+  </nav>
+</header>
+
+
+
+  <!-- Menu Mobile -->
+  <div id="mobile-menu" class="md:hidden hidden bg-[#155E75] text-white p-4">
+    <a href="#intro" class="block py-1">Início</a>
+    <a href="#solucao" class="block py-1">Solução</a>
+    <a href="#video" class="block py-1">Pitch</a>
+  </div>
+
+  <!-- Introdução -->
+<section id="intro" class="p-10 flex flex-col justify-center items-center text-center">
+   <div class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center">
+        <h1 class="text-2xl md:text-3xl font-bold mb-4 text-[#155E75]">O que é o Aplicativo Alerta Rápido: Enchentes?</h1>
+  <p class="text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed">
+É um aplicativo mobile criado para proteger a população de áreas com risco de alagamento. Ele envia alertas em tempo real sobre enchentes, usando dados de sensores, previsão do tempo e relatos da própria comunidade. Com uma interface simples e acessível, o app ajuda moradores a se prepararem com antecedência, evitarem áreas perigosas e agirem com segurança.    </p>
+  </div>
+</section>
+
+<!-- Problema Abordado -->
+
+<section id="problema" class="p-6  md:p-12 md:max-w-8xl md:mx-auto">
+  <h2 class="text-2xl md:text-3xl font-bold mb-4 text-[#155E75] text-center">Por que esse app é necessário?</h2>
+
+<section id="dados" class="p-6  md:p-12 md:max-w-5xl md:mx-auto">
+  
+  <div class="bg-[#155E75] text-white rounded-xl shadow-lg p-8 max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+    
+    <div class="flex flex-col items-center">
+      <div class="text-6xl font-extrabold mb-2">8,2M</div>
+      <div class="text-center text-lg">Brasileiros vivendo em áreas de risco de enchentes</div>
+    </div>
+
+    <div class="flex flex-col items-center">
+      <div class="text-6xl font-extrabold mb-2">1.600+</div>
+      <div class="text-center text-lg">Municípios com alta probabilidade de enchentes</div>
+    </div>
+
+    <div class="flex flex-col items-center">
+      <div class="text-6xl font-extrabold mb-2">+50%</div>
+      <div class="text-center text-lg">Aumento recente na frequência de enchentes</div>
+    </div>
+
+  </div>
+</section>
+
+  <p class="text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed">
+    Mais de 8,2 milhões de brasileiros vivem em áreas de risco de enchentes, e muitos municípios enfrentam alta probabilidade de alagamentos. 
+    A falta de comunicação rápida e eficaz deixa moradores vulneráveis, sem tempo para evacuação, causando perdas materiais e danos à segurança e à saúde.
+  </p>
+</section>
+
+<!-- Seção: Conheça nosso APP -->
+<section id="app" class="p-6 bg-gray-100">
+  <h2 class="text-2xl md:text-3xl font-bold text-center text-[#155E75] mb-6">Conheça nosso APP</h2>
+  <p class="text-center text-gray-700 mb-8 max-w-xl mx-auto">
+    Veja como funciona a navegação no aplicativo e como ele pode ajudar em situações de emergência por enchentes.
+  </p>
+
+  <div class="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 justify-items-center">
+    <img src="assets/img/proto1.png" alt="Tela do App 1" class="rounded-2xl shadow-lg hover:scale-105 transition" />
+    <img src="assets/img/proto2.png" alt="Tela do App 2" class="rounded-2xl shadow-lg hover:scale-105 transition" />
+    <img src="assets/img/proto3.png" alt="Tela do App 3" class="rounded-2xl shadow-lg hover:scale-105 transition" />
+    <img src="assets/img/proto4.png" alt="Tela do App 1" class="rounded-2xl shadow-lg hover:scale-105 transition" />
+    <img src="assets/img/proto5.png" alt="Tela do App 2" class="rounded-2xl shadow-lg hover:scale-105 transition" />
+    <img src="assets/img/proto6.png" alt="Tela do App 3" class="rounded-2xl shadow-lg hover:scale-105 transition" />
+
+  </div>
+</section>
+
+<!-- Seção: Como funciona o app -->
+<section id="funcionamento" class="p-6">
+  <p class="text-center text-gray-700 max-w-3xl mx-auto leading-relaxed">
+    Após se cadastrar e fazer login, o usuário acessa a página principal, onde verá o nível de alerta da sua região (verde, amarelo ou vermelho), junto com orientações específicas. No menu inferior, é possível navegar para a tela “Relatar Ocorrência”, onde o usuário pode enviar relatos com texto e foto sobre enchentes locais. Na seção “Dicas de Segurança”, estão disponíveis orientações úteis sobre como agir antes, durante e depois de uma enchente.
+  </p>
+</section>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
