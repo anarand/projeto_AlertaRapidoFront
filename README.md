@@ -42,3 +42,5 @@ O site funciona como uma vitrine da solução proposta, contendo:
 ## 📱 Responsividade
 
 O site segue o conceito **mobile-first** e se adapta bem a diferentes tamanhos de tela, garantindo uma boa experiência tanto em celulares quanto em desktops.
+
+#### Ana Luiza Santana da Rocha - RM 561194 - Turma 1ESPA
